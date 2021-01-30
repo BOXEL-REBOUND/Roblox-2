@@ -125,7 +125,7 @@ function simple2D.scroll(x, y, w, h)
 	return scroll
 end
 
-function simple2D.image(url, x, h, w, h)
+function simple2D.image(url, x, y, w, h)
 	local image = Instance.new("ImageButton")
 	image.AutoButtonColor = false
 	image.Position = UDim2.new(0, x, 0, y)
